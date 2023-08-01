@@ -1,2 +1,2 @@
 Test of automated releases
-v0.0.8
+v0.0.9
