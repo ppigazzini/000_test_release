@@ -1,3 +1,2 @@
-Test of automated release
-Add tag
-commit 4 with release v0.0.2
+Test of automated releases
+v0.0.5
