@@ -1,8 +1,5 @@
 name: 0
-on:
-  push:
-    branches:
-      - master
+on: pus
 jobs:
   build:
     runs-on: ubuntu-latest
