@@ -17,4 +17,5 @@ jobs:
         with:
           name: bin1
           files: bin1.txt
-          tag_name: {{ github.ref }}
+          tag_name: ${{ github.ref }}
+

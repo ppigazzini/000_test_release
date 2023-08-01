@@ -18,3 +18,4 @@ jobs:
           name: bin0
           files: bin0.txt
           tag_name: ${{ github.ref }}
+
