@@ -1,5 +1,5 @@
 name: released
-on: release
+on: workflow_dispatch
 jobs:
   virustotal:
     runs-on: ubuntu-latest
