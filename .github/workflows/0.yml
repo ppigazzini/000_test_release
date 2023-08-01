@@ -15,10 +15,8 @@ jobs:
         uses: crazy-max/ghaction-virustotal@v3
         with:
           vt_api_key: ${{ secrets.VT_API_KEY }}
-            #vt_monitor: true
-            #monitor_path: /ghaction-virustotal
           files: |
-            ./bin*.txt
+            ./bin0.txt
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
