@@ -15,7 +15,4 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v1
         with:
-          name: bin0
           files: bin0.txt
-          tag_name: ${{ github.ref }}
-
