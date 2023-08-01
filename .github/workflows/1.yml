@@ -11,6 +11,14 @@ jobs:
     steps:
       - name: Echo 1 to bin1.txt
         run: echo 1 > bin1.txt
+      - name: VirusTotal Monitor Scan
+        uses: crazy-max/ghaction-virustotal@v3
+        with:
+          vt_api_key: ${{ secrets.VT_API_KEY }}
+          vt_monitor: true
+          monitor_path: /ghaction-virustotal
+          files: |
+            ./bin*.txt
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
