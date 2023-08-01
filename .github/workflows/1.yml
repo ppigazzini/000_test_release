@@ -19,5 +19,5 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           name: bin1
-          file: bin1.txt
-          tag_name:
+          files: bin1.txt
+          tag_name: {{ github.ref }}
